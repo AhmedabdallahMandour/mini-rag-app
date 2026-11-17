@@ -17,7 +17,7 @@ this is a minimal
 $ conda create -n mini-rag python=3.8
 ```
 
-3)Activate env:
+3) Activate env:
 
 ```bash
 $ conda activate mini-rag 
