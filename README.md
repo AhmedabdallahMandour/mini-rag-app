@@ -29,7 +29,7 @@ $ conda activate mini-rag
 ### Install required backages
 
 ```bash
-$ pip install -r requirements.txt
+$ pip install -r src/requirements.txt
 ```
 
 ### setup the environment variables
@@ -38,7 +38,9 @@ $ pip install -r requirements.txt
 
 ## Run fastAPI server 
 
+Run this command from the project root (`mini-rag-app`):
+
 ```bash
-$ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+$ uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
