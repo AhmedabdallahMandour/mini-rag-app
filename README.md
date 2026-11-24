@@ -22,3 +22,23 @@ $ conda create -n mini-rag python=3.8
 ```bash
 $ conda activate mini-rag 
 ```
+
+
+## Installation
+
+### Install required backages
+
+```bash
+$ pip install -r requirements.txt
+```
+
+### setup the environment variables
+
+
+
+## Run fastAPI server 
+
+```bash
+$ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+```
+
